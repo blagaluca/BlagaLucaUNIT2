@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #00FFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title-box {
+    background-color: #C9FFC0;
+    padding: 20px;
+    text-align: center;
+}
+
+    .title-box h1 {
+        margin: 0;
+        color: #24445c;
+    }
+
+.content-box {
+    margin-top: 20px;
+}
+
+.border-box {
+    border: 2px solid #b67823; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.sub-title {
+    text-align: left; 
+    margin-bottom: 20px;
+}
+
+    .sub-title h2 {
+        color: #175732;
+        text-decoration: underline;
+    }
+
+.sub-title img {
+    display: block;
+    margin: auto; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.sub-title ul {
+    padding: 0;
+    list-style-type: none; 
+}
+
+.sub-title li {
+    margin: 8px 0;
+    color: #fff; 
+    position: relative;
+}
+
+    .sub-title li:before {
+        content: '\2022';
+        color: #175732;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+sub-title {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.mySlides {
+    display: none;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: #ddd;
+    color: #175732;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    background-color: #f8f9fa; 
+}
+
+th {
+    background-color: #343a40; 
+    color: #fff; 
+}
